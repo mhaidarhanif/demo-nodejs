@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+  }
+}
+
+@layer components {
+  .header {
+    color: black;
+  }
+  .footer {
+  }
+  .card {
+  }
+}
+
+@layer utilities {
+  .flex-row-center {
+  }
+  .flex-col-center {
+  }
+}

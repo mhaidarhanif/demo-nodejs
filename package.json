@@ -4,6 +4,10 @@
   "description": "Demo Node.js",
   "main": "index.js",
   "scripts": {
+    "dev": "npm run dev:css",
+    "dev:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "start": "node index.js",
     "test": "node index.js"
   },
   "repository": {
@@ -21,6 +25,11 @@
   },
   "homepage": "https://github.com/mhaidarhanif/demo-nodejs#readme",
   "dependencies": {
-    "dayjs": "1.11.5"
+    "animate.css": "4.1.1",
+    "dayjs": "1.11.5",
+    "sakura.css": "1.4.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.1.8"
   }
 }
