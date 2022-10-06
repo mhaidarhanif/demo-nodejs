@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mhaidarhanif/demo-nodejs/issues"
   },
-  "homepage": "https://github.com/mhaidarhanif/demo-nodejs#readme"
+  "homepage": "https://github.com/mhaidarhanif/demo-nodejs#readme",
+  "dependencies": {
+    "dayjs": "1.11.5"
+  }
 }
