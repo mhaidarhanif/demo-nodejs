@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "npm run dev:css",
     "dev:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
-    "start": "node index.js",
-    "test": "node index.js"
+    "build": "pwd && ls && npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
   },
   "repository": {
     "type": "git",
